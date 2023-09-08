@@ -1,4 +1,6 @@
 import express from "express";
+import "./config/mongo.js";
+
 // const express = require('express');
 const app = express();
 const port = process.env.PORT || 2000;
